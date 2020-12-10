@@ -1,0 +1,7 @@
+@import './fonts.css';
+@import './base.css';
+
+/* components */
+@import 'header/header.css';
+@import 'theme-switch/theme-switch.css';
+@import 'footer/footer.css';

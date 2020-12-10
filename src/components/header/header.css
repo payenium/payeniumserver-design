@@ -1,0 +1,26 @@
+.btcpay-header {
+  color: var(--btcpay-header-color);
+  background-color: var(--btcpay-header-bg);
+
+  & a {
+    color: var(--btcpay-header-color-link);
+    text-decoration: none;
+  }
+
+  & a:focus,
+  & a:hover {
+    color: var(--btcpay-header-color-link-accent);
+  }
+}
+
+.btcpay-header-columns {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.btcpay-header-logo {
+  height: 45px;
+}
